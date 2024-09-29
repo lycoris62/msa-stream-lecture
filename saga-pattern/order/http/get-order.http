@@ -1,0 +1,4 @@
+GET http://localhost:8080/order/d66125f8-60d0-4683-bfe5-a3a28768f10a
+Accept: application/json
+
+###

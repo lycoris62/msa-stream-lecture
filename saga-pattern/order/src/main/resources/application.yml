@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+message:
+    exchange: market
+    queue:
+        product: market.product
+        payment: market.payment
+        err:
+          order: market.err.order
+          product: market.err.product
+    err:
+        exchange: market.err
+

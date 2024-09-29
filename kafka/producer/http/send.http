@@ -1,0 +1,14 @@
+###
+
+GET http://localhost:8090/send?topic=topic1&message=hello&key=key-1
+
+Accept: application/json
+
+###
+
+GET http://localhost:8090/send?topic=topic3&message=hello&key=key-1
+
+Accept: application/json
+
+###
+
